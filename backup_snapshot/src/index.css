@@ -1,0 +1,456 @@
+@import "tailwindcss";
+
+/* LIGHT THEME STYLING OVERRIDES */
+/* When .light is present on parent container, transform dark slate styling to clean engineering light theme */
+
+.light {
+  color-scheme: light;
+}
+
+/* Base page background & text */
+.light,
+.light body {
+  background-color: #f8fafc !important; /* slate-50 */
+  color: #0f172a !important; /* slate-900 */
+}
+
+/* Landing page root container */
+.light #landing-page-view,
+.light .bg-\[\#030712\] {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Card and Container Backgrounds */
+.light .bg-slate-950,
+.light .bg-slate-950\/40,
+.light .bg-slate-950\/50,
+.light .bg-slate-950\/60,
+.light .bg-slate-950\/70,
+.light .bg-slate-950\/80,
+.light .bg-slate-950\/90,
+.light .bg-slate-900,
+.light .bg-slate-900\/40,
+.light .bg-slate-900\/50,
+.light .bg-slate-900\/60,
+.light .bg-slate-900\/70,
+.light .bg-slate-900\/80,
+.light .bg-slate-900\/90,
+.light .bg-slate-900\/95 {
+  background-color: #ffffff !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05) !important;
+}
+
+.light .bg-slate-800,
+.light .bg-slate-800\/90,
+.light .bg-slate-800\/80,
+.light .bg-slate-800\/60,
+.light .bg-slate-800\/50,
+.light .bg-slate-800\/40,
+.light .bg-slate-800\/30,
+.light .bg-slate-800\/20 {
+  background-color: #f1f5f9 !important; /* slate-100 */
+}
+
+/* Tinted Card Backgrounds */
+.light .bg-emerald-950,
+.light .bg-emerald-950\/10,
+.light .bg-emerald-950\/20,
+.light .bg-emerald-950\/30,
+.light .bg-emerald-950\/40,
+.light .bg-emerald-950\/50,
+.light .bg-emerald-950\/60,
+.light .bg-emerald-950\/70,
+.light .bg-emerald-950\/80,
+.light .bg-emerald-950\/90 {
+  background-color: #ecfdf5 !important; /* emerald-50 */
+}
+
+.light .bg-cyan-950,
+.light .bg-cyan-950\/10,
+.light .bg-cyan-950\/20,
+.light .bg-cyan-950\/30,
+.light .bg-cyan-950\/40,
+.light .bg-cyan-950\/50,
+.light .bg-cyan-950\/60,
+.light .bg-cyan-950\/70,
+.light .bg-cyan-950\/80,
+.light .bg-cyan-950\/90 {
+  background-color: #ecfeff !important; /* cyan-50 */
+}
+
+.light .bg-amber-950,
+.light .bg-amber-950\/10,
+.light .bg-amber-950\/20,
+.light .bg-amber-950\/30,
+.light .bg-amber-950\/40,
+.light .bg-amber-950\/50,
+.light .bg-amber-950\/60,
+.light .bg-amber-950\/70,
+.light .bg-amber-950\/80,
+.light .bg-amber-950\/90 {
+  background-color: #fffbeb !important; /* amber-50 */
+}
+
+.light .bg-purple-950,
+.light .bg-purple-950\/10,
+.light .bg-purple-950\/20,
+.light .bg-purple-950\/30,
+.light .bg-purple-950\/40,
+.light .bg-purple-950\/50,
+.light .bg-purple-950\/60,
+.light .bg-purple-950\/70,
+.light .bg-purple-950\/80,
+.light .bg-purple-950\/90 {
+  background-color: #faf5ff !important; /* purple-50 */
+}
+
+.light .bg-indigo-950,
+.light .bg-indigo-950\/10,
+.light .bg-indigo-950\/20,
+.light .bg-indigo-950\/30,
+.light .bg-indigo-950\/40,
+.light .bg-indigo-950\/50,
+.light .bg-indigo-950\/60,
+.light .bg-indigo-950\/70,
+.light .bg-indigo-950\/80,
+.light .bg-indigo-950\/90 {
+  background-color: #eef2ff !important; /* indigo-50 */
+}
+
+.light .bg-rose-950,
+.light .bg-rose-950\/10,
+.light .bg-rose-950\/20,
+.light .bg-rose-950\/30,
+.light .bg-rose-950\/40,
+.light .bg-rose-950\/50,
+.light .bg-rose-950\/60,
+.light .bg-rose-950\/70,
+.light .bg-rose-950\/80,
+.light .bg-rose-950\/90 {
+  background-color: #fff1f2 !important; /* rose-50 */
+}
+
+/* Header & Footer specifically */
+.light header {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border-bottom-color: #e2e8f0 !important;
+  color: #0f172a !important;
+}
+
+.light footer {
+  background-color: #ffffff !important;
+  border-top-color: #e2e8f0 !important;
+  color: #475569 !important;
+}
+
+/* Gradients */
+.light .bg-gradient-to-br.from-slate-900.via-slate-900.to-slate-950,
+.light .bg-gradient-to-br.from-slate-950.via-slate-900.to-slate-950,
+.light .from-slate-900.via-slate-950.to-slate-950,
+.light .bg-gradient-to-b.from-slate-900.via-slate-950.to-slate-950 {
+  background: #ffffff !important;
+}
+
+/* Mechanical Governor Intelligence Callout Banner Gradient */
+.light .from-amber-500\/10.via-slate-900.to-cyan-500\/10,
+.light .bg-gradient-to-r.from-amber-500\/10.via-slate-900.to-cyan-500\/10 {
+  background: linear-gradient(to right, #fffbeb, #f8fafc, #ecfeff) !important;
+  color: #78350f !important; /* amber-900 */
+}
+
+/* Closed Passive Feedback Loop Return Bar Gradient */
+.light .from-amber-950\/40.via-slate-950.to-emerald-950\/40,
+.light .bg-gradient-to-r.from-amber-950\/40.via-slate-950.to-emerald-950\/40 {
+  background: linear-gradient(to right, #fffbeb, #f8fafc, #ecfdf5) !important;
+}
+
+/* Borders */
+.light .border-slate-950,
+.light .border-slate-900,
+.light .border-slate-800,
+.light .border-slate-800\/80,
+.light .border-slate-800\/60,
+.light .border-slate-800\/40,
+.light .border-slate-700,
+.light .border-slate-700\/80,
+.light .border-slate-700\/60 {
+  border-color: #e2e8f0 !important; /* slate-200 */
+}
+
+.light .divide-slate-800\/80 > :not([hidden]) ~ :not([hidden]),
+.light .divide-slate-800\/60 > :not([hidden]) ~ :not([hidden]),
+.light .divide-slate-800 > :not([hidden]) ~ :not([hidden]),
+.light .divide-slate-700 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #e2e8f0 !important;
+}
+
+/* Text elements */
+.light .text-slate-50,
+.light .text-slate-100,
+.light .text-slate-200 {
+  color: #0f172a !important; /* slate-900 */
+}
+
+.light .text-slate-300,
+.light .text-slate-400 {
+  color: #334155 !important; /* slate-700 */
+}
+
+.light .text-slate-500 {
+  color: #64748b !important; /* slate-500 */
+}
+
+.light .text-slate-600 {
+  color: #64748b !important;
+}
+
+/* Accent Badges & Highlights - adjust text contrast for light theme */
+.light .text-emerald-400,
+.light .text-emerald-300,
+.light .text-emerald-200 {
+  color: #047857 !important; /* emerald-700 */
+}
+
+.light .text-cyan-400,
+.light .text-cyan-300,
+.light .text-cyan-200 {
+  color: #0e7490 !important; /* cyan-700 */
+}
+
+.light .text-amber-400,
+.light .text-amber-300,
+.light .text-amber-200,
+.light .text-yellow-400,
+.light .text-yellow-300 {
+  color: #92400e !important; /* amber-800 */
+}
+
+.light .text-purple-400,
+.light .text-purple-300,
+.light .text-purple-200 {
+  color: #7e22ce !important; /* purple-700 */
+}
+
+.light .text-indigo-400,
+.light .text-indigo-300,
+.light .text-indigo-200 {
+  color: #4338ca !important; /* indigo-700 */
+}
+
+.light .text-rose-400,
+.light .text-rose-300,
+.light .text-rose-200,
+.light .text-red-400,
+.light .text-red-300 {
+  color: #be123c !important; /* rose-700 */
+}
+
+.light .text-blue-400,
+.light .text-blue-300 {
+  color: #1d4ed8 !important; /* blue-700 */
+}
+
+/* Badge border and backgrounds for light mode */
+.light .bg-emerald-500\/10 {
+  background-color: rgba(16, 185, 129, 0.1) !important;
+}
+.light .bg-emerald-500\/15 {
+  background-color: rgba(16, 185, 129, 0.18) !important;
+}
+.light .bg-emerald-500\/20 {
+  background-color: rgba(16, 185, 129, 0.22) !important;
+}
+.light .border-emerald-800,
+.light .border-emerald-800\/80,
+.light .border-emerald-800\/60,
+.light .border-emerald-800\/40,
+.light .border-emerald-500\/60,
+.light .border-emerald-500\/50,
+.light .border-emerald-500\/40,
+.light .border-emerald-500\/30,
+.light .border-emerald-500\/20,
+.light .border-emerald-400\/50,
+.light .border-emerald-400\/30 {
+  border-color: #a7f3d0 !important; /* emerald-200 */
+}
+
+.light .bg-cyan-500\/10,
+.light .bg-cyan-500\/15,
+.light .bg-cyan-500\/20 {
+  background-color: #ecfeff !important;
+}
+.light .border-cyan-800,
+.light .border-cyan-800\/80,
+.light .border-cyan-800\/60,
+.light .border-cyan-800\/40,
+.light .border-cyan-500\/50,
+.light .border-cyan-500\/40,
+.light .border-cyan-500\/30,
+.light .border-cyan-500\/20,
+.light .border-cyan-400\/50,
+.light .border-cyan-400\/30 {
+  border-color: #a5f3fc !important; /* cyan-200 */
+}
+
+.light .bg-amber-500\/10,
+.light .bg-amber-500\/15,
+.light .bg-amber-500\/20 {
+  background-color: #fffbeb !important;
+}
+.light .border-amber-800,
+.light .border-amber-800\/80,
+.light .border-amber-800\/60,
+.light .border-amber-800\/40,
+.light .border-amber-500\/60,
+.light .border-amber-500\/50,
+.light .border-amber-500\/40,
+.light .border-amber-500\/30,
+.light .border-amber-500\/20,
+.light .border-amber-400\/60,
+.light .border-amber-400\/40 {
+  border-color: #fde68a !important; /* amber-200 */
+}
+
+.light .bg-purple-500\/10,
+.light .bg-purple-500\/15,
+.light .bg-purple-500\/20 {
+  background-color: #faf5ff !important;
+}
+.light .border-purple-800,
+.light .border-purple-800\/80,
+.light .border-purple-800\/60,
+.light .border-purple-800\/40,
+.light .border-purple-500\/50,
+.light .border-purple-500\/40,
+.light .border-purple-500\/30,
+.light .border-purple-500\/20,
+.light .border-purple-400\/50,
+.light .border-purple-400\/30 {
+  border-color: #e9d5ff !important; /* purple-200 */
+}
+
+.light .bg-indigo-500\/10,
+.light .bg-indigo-500\/15,
+.light .bg-indigo-500\/20 {
+  background-color: #eef2ff !important;
+}
+.light .border-indigo-800,
+.light .border-indigo-800\/80,
+.light .border-indigo-800\/60,
+.light .border-indigo-800\/40,
+.light .border-indigo-500\/50,
+.light .border-indigo-500\/30 {
+  border-color: #c7d2fe !important; /* indigo-200 */
+}
+
+.light .bg-rose-500\/10,
+.light .bg-rose-500\/15,
+.light .bg-rose-500\/20,
+.light .bg-red-500\/10 {
+  background-color: #fff1f2 !important;
+}
+.light .border-rose-800,
+.light .border-rose-800\/80,
+.light .border-rose-800\/60,
+.light .border-rose-800\/40,
+.light .border-rose-500\/40,
+.light .border-rose-500\/30,
+.light .border-rose-500\/20,
+.light .border-red-500\/30 {
+  border-color: #fecdd3 !important; /* rose-200 */
+}
+
+/* Sub-nav & Action Buttons */
+.light nav button.text-slate-400:hover,
+.light button.hover\:bg-slate-800\/50:hover,
+.light button.hover\:bg-slate-800:hover {
+  background-color: #e2e8f0 !important;
+  color: #0f172a !important;
+}
+
+/* Inputs & Range Sliders */
+.light input[type="range"] {
+  background-color: #cbd5e1 !important;
+}
+
+/* Code & Pre blocks */
+.light pre,
+.light code {
+  color: #0f172a !important;
+}
+
+/* Tables */
+.light table th {
+  background-color: #f8fafc !important;
+  color: #1e293b !important;
+  border-color: #e2e8f0 !important;
+}
+.light table td {
+  border-color: #e2e8f0 !important;
+  color: #334155 !important;
+}
+.light table tr:hover {
+  background-color: #f8fafc !important;
+}
+
+/* Charts & Recharts in Light Mode */
+.light .recharts-default-tooltip,
+.light .recharts-tooltip-wrapper div {
+  background-color: #ffffff !important;
+  border-color: #cbd5e1 !important;
+  color: #0f172a !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+.light .recharts-cartesian-grid-line {
+  stroke: #e2e8f0 !important;
+}
+
+.light .recharts-text {
+  fill: #475569 !important;
+}
+
+.light .recharts-legend-item-text {
+  color: #334155 !important;
+}
+
+/* SVGs & Canvas Diagram Containers in Light Mode */
+.light svg text.fill-slate-100,
+.light svg text.fill-slate-200 {
+  fill: #0f172a !important;
+}
+
+.light svg text.fill-slate-300,
+.light svg text.fill-slate-400 {
+  fill: #334155 !important;
+}
+
+.light svg line[stroke="#cbd5e1"],
+.light svg line[stroke="#94a3b8"] {
+  stroke: #475569 !important;
+}
+
+.light svg line[stroke="#f8fafc"] {
+  stroke: #0f172a !important;
+}
+
+.light svg path[stroke="#1e293b"] {
+  stroke: #e2e8f0 !important;
+}
+
+.light svg rect[fill="#020617"],
+.light svg rect[fill="#0f172a"] {
+  fill: #ffffff !important;
+  stroke: #e2e8f0 !important;
+}
+
+.light svg text[fill="#94a3b8"] {
+  fill: #475569 !important;
+}
+
+.light svg text[fill="#64748b"] {
+  fill: #64748b !important;
+}
+

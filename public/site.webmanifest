@@ -1,0 +1,16 @@
+{
+  "name": "WindSense | Wind Turbine Monitoring & Analysis",
+  "short_name": "WindSense",
+  "description": "Engineering-focused wind turbine monitoring, simulation and performance analysis.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#10b981",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

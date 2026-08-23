@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix WindSense — Mechanically Intelligent Wind Energy",
+  "description": "Digital simulation and engineering visualization for passive mechanical wind turbine self-pitching control without electronics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
