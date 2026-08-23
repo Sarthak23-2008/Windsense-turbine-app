@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+* **Real-Time Data Visualization:** Displays core operational metrics, including wind speed, rotor velocity, power output, and system efficiency.
+* **Predictive Diagnostics:** Monitors component parameters to flag performance anomalies early and lower maintenance downtime.
+* **Interactive Dashboard:** Offers a clean, intuitive user interface for exploring historical and live operational trends.
+* **Energy Yield Estimation:** Calculates potential power generation based on real-time environmental input data.
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 🛠️ Built With
 
-View your app in AI Studio: https://ai.studio/apps/8c641ee6-2de9-41c0-a21b-815c25daecd4
+* **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+* **UI/Styling:** Custom CSS / Responsive Web Design
+* **Data Handling:** Native JS Data Processing
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🚀 Getting Started
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+To view and run this project locally, all you need is a modern web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, etc.).
